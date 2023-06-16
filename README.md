@@ -1,11 +1,11 @@
-About r-freesurferformats
-=========================
+About r-freesurferformats-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-freesurferformats-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dfsp-spirit/freesurferformats
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-freesurferformats-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides functions to read and write neuroimaging data in various file formats, with
 a focus on 'FreeSurfer' <http://freesurfer.net/> formats. This includes, but is
