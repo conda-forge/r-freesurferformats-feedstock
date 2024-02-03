@@ -1,4 +1,4 @@
-{% set version = '0.1.17' %}
+{% set version = "0.1.18" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/freesurferformats_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/freesurferformats/freesurferformats_{{ version }}.tar.gz
-  sha256: 9619a2e882521703a6c58f5e809195f053dd5cd87e0966d0a59f25fe52afbb88
+  sha256: 72e92d65b8e63a1b1dcdadd01da64d65bc84d2da9f82de3e10d399cb9642e59d
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
