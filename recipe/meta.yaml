@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/freesurferformats_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/freesurferformats/freesurferformats_{{ version }}.tar.gz
-  sha256: 3039a59b6795de5690fa71b64f752ab704974454d4d51772ca796c3735462086
+  sha256: 044d5315d5660c9aa63d0696287f1441dfced4324f8adda3d12ebd036e1b245c
 
 build:
   number: 0
